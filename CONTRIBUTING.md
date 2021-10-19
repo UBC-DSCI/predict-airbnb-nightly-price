@@ -8,8 +8,8 @@ The following is a set of guidelines for contributing to our project, which are 
 
 [Code of Conduct](#code-of-conduct)  
 [How Can I Contribute?](#how-can-i-contribute)  
- - Direct contributor  
- - External contributor  
+ - Direct contributors  
+ - External contributors  
 
 ## Code of Conduct  
 
@@ -22,22 +22,22 @@ Contributions and bug reports are tracked as [GitHub issues](https://guides.gith
 
 If you are creating a bug report, please include as many details as possible: 
 
- **Use a clear and descriptive title** for the issue to identify the problem.  
- **Describe the exact steps which reproduce the problem** in as many details as possible.   
- **Provide specific examples to demonstrate the steps**. Include links to files or GitHub projects, or copy/pasteable snippets, which you use in those examples. If you're providing snippets in the issue, use [Markdown code blocks](https://help.github.com/articles/markdown-basics/#multiple-lines).  
- **Describe the behavior you observed after following the steps** and point out what exactly is the problem with that behavior.  
- **Explain which behavior you expected to see instead and why.**  
- **Include details about your configuration and environment**  
+* **Use a clear and descriptive title** for the issue to identify the problem.  
+* **Describe the exact steps which reproduce the problem** in as many details as possible.   
+* **Provide specific examples to demonstrate the steps**. Include links to files or GitHub projects, or copy/pasteable snippets, which you use in those examples. If you're providing snippets in the issue, use [Markdown code blocks](https://help.github.com/articles/markdown-basics/#multiple-lines).  
+* **Describe the behavior you observed after following the steps** and point out what exactly is the problem with that behavior.  
+* **Explain which behavior you expected to see instead and why.**  
+* **Include details about your configuration and environment**  
  
  
 #### Direct contributors  
 * Direct contributors will push to the `main` branch of the project.  
-* We will link issues to project milestones and use project boards to organize the issues  
-
+* Issues should be linked to project milestones.
+* A Project board is used to organize the issues.  
 
 #### External Contributors
 * External contributors need first to open issues to explain how they might like to help.
-* If welcomed, the should fork the repo and send their changes via a pull request
+* If welcomed, the should fork the repo and send their changes via a pull request.
 
 
 This contribution guidelines were based in [Atom's contribution guidelines](https://github.com/atom/atom/edit/master/CONTRIBUTING.md)
