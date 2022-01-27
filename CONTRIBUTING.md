@@ -2,7 +2,7 @@
 
 :+1::tada: First off, thanks for taking the time to contribute! :tada::+1:
 
-The following is a set of guidelines for contributing to our project, which are hosted in the [UBC-DSCI organization](https://github.com/UBC-DSCI/predict-airbnb-nightly-price) on GitHub. These are mostly guidelines, not rules. Use your best judgment, and feel free to propose changes to this document in a pull request.
+The following is a set of guidelines for contributing to our project, which are hosted in the [UBC-DSCI organization](https://github.com/UBC-DSCI) on GitHub. These are mostly guidelines, not rules. Use your best judgment, and feel free to propose changes to this document in a pull request.
 
 #### Table Of Contents
 
@@ -29,16 +29,17 @@ If you are creating a bug report, please include as many details as possible:
 * **Explain which behavior you expected to see instead and why.**  
 * **Include details about your configuration and environment**  
  
- 
 #### Direct contributors  
-* Direct contributors will push to the `main` branch of the project.  
+* Use issues for listing tasks that need accomplishment, and assignment of tasks.
 * Issues should be linked to project milestones.
-* A Project board is used to organize the issues.  
+* A Project board is used to organize the issues.
+* Pull at the beginning of each work session, and push at the end.  
+* Features and fixes are to be contributed in a GitHub flow workflow (where they create branches for each feature or fix, which are reviewed and critiqued by at least one other teammate before the the pull request is accepted).
+* 
 
 #### External Contributors
 * External contributors need first to open issues to explain how they might like to help.
 * If welcomed, the should fork the repo and send their changes via a pull request.
-
 
 This contribution guidelines were based in [Atom's contribution guidelines](https://github.com/atom/atom/edit/master/CONTRIBUTING.md)
 
