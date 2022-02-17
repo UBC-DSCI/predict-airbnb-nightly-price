@@ -1,0 +1,14 @@
+name: base
+channels:
+  - conda-forge
+dependencies:
+  - r-cowplot
+  - r-devtools
+  - r-kknn
+  - r-scales
+  - r-testthat
+  - r-tidymodels
+  - r-tidyverse
+  - r-tinytex
+  - r-usethis
+  - unixodbc
