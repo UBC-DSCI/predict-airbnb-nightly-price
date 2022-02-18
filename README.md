@@ -19,7 +19,12 @@ To run Jupyter lab inside the `ubcdsci/predict-airbnb` Docker container:
   docker-compose up -d
   ```
 - once the container has launched, users need to copy the URL that looks like `http://127.0.0.1:8888/lab?token=d9704724bf0267d3d9262698ffbb88123633f8c8f4b1a305` into their web browser to access Jupyter Lab
+- Next, in Jupyter lab, navigate to, and open `notebooks/airbnb_analysis.ipynb` and click **Kernel** > **Restart and runall** to run the entire analysis.
 - when done working, type `docker-compose down` to remove the dangling container.
+
+## Dependencies:
+
+R version 4.1.1, Jupyter and R packages listed in [`environment.yml`](environment.yml).
 
 ## License Information
 
