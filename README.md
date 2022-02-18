@@ -7,6 +7,10 @@ Here we attempt to build a regression model, using the k-nearest neighbors algor
 
 The data we used to build our model contains all the active Airbnb listings for Vancouver, Canada from April 2021. The data was collected from <http://insideairbnb.com/>.
 
+## Report
+
+The analysis report can be found [here](notebooks/airbnb_analysis.ipynb).
+
 ## Usage
 
 We use a Docker container image to make the computational environment for this project reproducible.
