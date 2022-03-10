@@ -1,6 +1,6 @@
 services:
   airbnb-env:
-    image: testairbnb2
+    image: ubcdsci/predict-airbnb:v0.1.0
     ports:
       - "8888:8888"
     volumes:
