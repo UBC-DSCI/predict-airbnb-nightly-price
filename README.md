@@ -14,7 +14,25 @@ The analysis report can be found [here](notebooks/airbnb_analysis.ipynb).
 ## Usage
 
 We use a Docker container image to make the computational environment for this project reproducible.
-To run Jupyter lab inside the `ubcdsci/predict-airbnb` Docker container:
+There are two ways we document how to do this. The first, which is ideal for those wishing to reproduce our results,
+is how to reproducibly execute the project non-interactively. The second, which is ideal for project developers and collaborators,
+is how to interactively run, edit and explore the project in Jupyter Lab.
+
+### 1. How to reproducibly execute the project non-interactively
+
+First, clone this GitHub repository and in in the terminal, navigate to the root of this project.
+Next run the following in your terminal:
+
+```
+docker run --rm \
+  -p 8888:8888 \
+  -v /$(pwd):/opt/notebooks/predict-airbnb-nightly-price \
+  ubcdsci/predict-airbnb:v0.1.0 \
+  jupyter nbconvert --to notebook --execute predict-airbnb-nightly-price/notebooks/airbnb_analysis.ipynb
+```
+
+### 2. How to interactively run and explore the project in Jupyter Lab
+To interactively run Jupyter lab inside the `ubcdsci/predict-airbnb` Docker container (which is useful for project developers and collaborators):
 
 - in terminal, navigate to the root of this project repository
 - type the following in terminal:
