@@ -21,6 +21,13 @@ test_that("`summarize_col` should return an empty data frame with columns median
   expect_equivalent(summarize_col(empty_df, y), empty_df_output)
 })
 
+test_that("`summarize_col` by default should remove NA's when calculating statistical summaries, and only not remove NA's when `remove_nas = FALSE`", {
+  expect_equivalent(summarize_col(two_cols_four_rows_nas, y), three_rows_output)
+  expect_equivalent(
+    summarize_col(two_cols_four_rows_nas, y, remove_nas = FALSE), 
+    two_cols_four_rows_nas_remove_false)
+})
+
 test_that("`summarize_col` should throw an error when incorrect types 
 are passed to `.data` and `col` arguments", {
   expect_error(summarize_col(two_cols_three_rows_not_numeric, y))

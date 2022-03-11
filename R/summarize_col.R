@@ -17,7 +17,7 @@
 #'
 #' @examples
 #' summarize_col(mtcars, mpg)
-summarize_col <- function(.data, col) {
+summarize_col <- function(.data, col, remove_nas = TRUE) {
   if (!is.data.frame(.data)) {
     stop("`.data` should be a data frame or data frame extension (e.g. a tibble)")
   }
@@ -33,7 +33,7 @@ summarize_col <- function(.data, col) {
   # returns a data frame or data frame extension (e.g. a tibble) 
   # with three columns: median, mean and standard deviation from the specified column
   .data |>
-    dplyr::summarize(median = median({{ col }}),
-                   mean = mean({{ col }}),
-                   standard_deviation = sd({{ col }}))
+    dplyr::summarize(median = median({{ col }}, na.rm = remove_nas),
+                   mean = mean({{ col }}, na.rm = remove_nas),
+                   standard_deviation = sd({{ col }}, na.rm = remove_nas))
 }
