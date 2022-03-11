@@ -10,7 +10,7 @@ list_named_numeric_vector <- list(y = c(2, 4, 6))
 # expected output from summarize_col
 three_rows_output <- data.frame(median = 4, 
                                 mean = 4,
-                                standard_deviation = 4)
+                                standard_deviation = 2)
 
 two_cols_three_rows_all_same_output <- data.frame(median = 1, 
                                                   mean = 1,
@@ -18,7 +18,7 @@ two_cols_three_rows_all_same_output <- data.frame(median = 1,
 
 two_cols_one_row_output <- data.frame(median = 2, 
                                       mean = 2,
-                                      standard_deviation = NA)
+                                      standard_deviation = as.numeric(NA))
 
 empty_df_output <- data.frame(median = numeric(0),
                        mean = numeric(0),
