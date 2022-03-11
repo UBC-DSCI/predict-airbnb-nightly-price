@@ -6,4 +6,4 @@ COPY environment.yml .
 RUN conda env update --file environment.yml
 
 # Install diffviewer R package from CRAN (it is not available on any conda channels)
-RUN Rscript -e "install.packages('diffviewer', version = "0.1.1", repos='http://cran.us.r-project.org')"
+RUN Rscript -e "install.packages('diffviewer', version = '0.1.1', repos='http://cran.us.r-project.org')"
